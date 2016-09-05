@@ -160,7 +160,8 @@ class IP {
     }
 
     private static int str2Ip(String ip)  {
-        String[] ss = ip.split("\\.");
+	int i =0;        
+	String[] ss = ip.split("\\.");
         int a, b, c, d;
         a = Integer.parseInt(ss[0]);
         b = Integer.parseInt(ss[1]);
